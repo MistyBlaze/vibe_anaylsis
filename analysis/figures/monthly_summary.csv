@@ -1,0 +1,2 @@
+month,flights,avg_arr_delay,avg_dep_delay,delayed_arrivals,delayed_departures,cancelled,on_time_rate,cancellation_rate
+2024-01-01,582425.0,10.660238225213213,15.971901489424285,134575.0,129802.0,22073.0,0.7689402068935914,0.037898441859466885

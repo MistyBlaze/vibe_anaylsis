@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="520" viewBox="0 0 840 520">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933;}</style>
+
+<text x="420.0" y="40.0" text-anchor="middle" font-size="18" font-weight="600">Top carriers by flights – avg arrival delay</text>
+<line x1="80" y1="80" x2="80" y2="440" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="80" y1="440" x2="760" y2="440" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="80.0" y1="440" x2="80.0" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="80.0" y="468" text-anchor="middle">0</text>
+<line x1="215.99999999999997" y1="440" x2="215.99999999999997" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="215.99999999999997" y="468" text-anchor="middle">3.3</text>
+<line x1="351.99999999999994" y1="440" x2="351.99999999999994" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="351.99999999999994" y="468" text-anchor="middle">6.5</text>
+<line x1="487.99999999999994" y1="440" x2="487.99999999999994" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="487.99999999999994" y="468" text-anchor="middle">9.8</text>
+<line x1="623.9999999999999" y1="440" x2="623.9999999999999" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="623.9999999999999" y="468" text-anchor="middle">13</text>
+<line x1="760.0" y1="440" x2="760.0" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="760.0" y="468" text-anchor="middle">16.3</text>
+<text x="420.0" y="495" text-anchor="middle" font-size="13">Average delay (minutes)</text>
+<rect x="80" y="87.2" width="680.0" height="21.599999999999998" fill="#2563eb" rx="4"/>
+<text x="70" y="103.0" text-anchor="end" font-weight="500">AA</text>
+<text x="768.0" y="103.0">16.3</text>
+<rect x="80" y="123.2" width="316.4485377480605" height="21.599999999999998" fill="#10b981" rx="4"/>
+<text x="70" y="139.0" text-anchor="end" font-weight="500">DL</text>
+<text x="404.4485377480605" y="139.0">7.6</text>
+<rect x="80" y="159.2" width="268.1962244782797" height="21.599999999999998" fill="#f97316" rx="4"/>
+<text x="70" y="175.0" text-anchor="end" font-weight="500">WN</text>
+<text x="356.1962244782797" y="175.0">6.4</text>
+<rect x="80" y="195.2" width="423.83325983587133" height="21.599999999999998" fill="#a855f7" rx="4"/>
+<text x="70" y="211.0" text-anchor="end" font-weight="500">UA</text>
+<text x="511.83325983587133" y="211.0">10.1</text>
+<rect x="80" y="231.2" width="415.6989606523931" height="21.599999999999998" fill="#ef4444" rx="4"/>
+<text x="70" y="247.0" text-anchor="end" font-weight="500">AS</text>
+<text x="503.6989606523931" y="247.0">10</text>
+<rect x="80" y="267.2" width="404.5199628929212" height="21.599999999999998" fill="#2563eb" rx="4"/>
+<text x="70" y="283.0" text-anchor="end" font-weight="500">NK</text>
+<text x="492.5199628929212" y="283.0">9.7</text>
+<rect x="80" y="303.2" width="564.8279881707107" height="21.599999999999998" fill="#10b981" rx="4"/>
+<text x="70" y="319.0" text-anchor="end" font-weight="500">B6</text>
+<text x="652.8279881707107" y="319.0">13.5</text>
+<rect x="80" y="339.2" width="614.8317375635415" height="21.599999999999998" fill="#f97316" rx="4"/>
+<text x="70" y="355.0" text-anchor="end" font-weight="500">F9</text>
+<text x="702.8317375635415" y="355.0">14.7</text>
+<rect x="80" y="375.2" width="439.7670935263003" height="21.599999999999998" fill="#a855f7" rx="4"/>
+<text x="70" y="391.0" text-anchor="end" font-weight="500">G4</text>
+<text x="527.7670935263003" y="391.0">10.5</text>
+<rect x="80" y="411.2" width="445.46878961927126" height="21.599999999999998" fill="#ef4444" rx="4"/>
+<text x="70" y="427.0" text-anchor="end" font-weight="500">HA</text>
+<text x="533.4687896192713" y="427.0">10.7</text>
+</svg>

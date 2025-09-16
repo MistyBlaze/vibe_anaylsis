@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="520" viewBox="0 0 840 520">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933;}</style>
+
+<text x="420.0" y="40.0" text-anchor="middle" font-size="18" font-weight="600">Total delay minutes by cause</text>
+<line x1="80" y1="80" x2="80" y2="440" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="80" y1="440" x2="760" y2="440" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="80.0" y1="440" x2="80.0" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="80.0" y="468" text-anchor="middle">0</text>
+<line x1="216.0" y1="440" x2="216.0" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="216.0" y="468" text-anchor="middle">823140.4</text>
+<line x1="352.0" y1="440" x2="352.0" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="352.0" y="468" text-anchor="middle">1646280.8</text>
+<line x1="488.00000000000006" y1="440" x2="488.00000000000006" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="488.00000000000006" y="468" text-anchor="middle">2469421.2</text>
+<line x1="624.0" y1="440" x2="624.0" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="624.0" y="468" text-anchor="middle">3292561.6</text>
+<line x1="760.0" y1="440" x2="760.0" y2="448" stroke="#cbd2d9" stroke-width="1"/>
+<text x="760.0" y="468" text-anchor="middle">4115702</text>
+<text x="420.0" y="495" text-anchor="middle" font-size="13">Delay minutes</text>
+<rect x="80" y="94.4" width="680.0" height="43.199999999999996" fill="#2563eb" rx="4"/>
+<text x="70" y="121.0" text-anchor="end" font-weight="500">Late Aircraft</text>
+<text x="768.0" y="121.0">4115702</text>
+<rect x="80" y="166.4" width="547.9321583535445" height="43.199999999999996" fill="#10b981" rx="4"/>
+<text x="70" y="193.0" text-anchor="end" font-weight="500">Carrier</text>
+<text x="635.9321583535445" y="193.0">3316361</text>
+<rect x="80" y="238.4" width="300.5994408730273" height="43.199999999999996" fill="#f97316" rx="4"/>
+<text x="70" y="265.0" text-anchor="end" font-weight="500">NAS</text>
+<text x="388.5994408730273" y="265.0">1819379</text>
+<rect x="80" y="310.4" width="178.42403555942582" height="43.199999999999996" fill="#a855f7" rx="4"/>
+<text x="70" y="337.0" text-anchor="end" font-weight="500">Weather</text>
+<text x="266.4240355594258" y="337.0">1079912</text>
+<rect x="80" y="382.4" width="3.772323652198337" height="43.199999999999996" fill="#ef4444" rx="4"/>
+<text x="70" y="409.0" text-anchor="end" font-weight="500">Security</text>
+<text x="91.77232365219834" y="409.0">22832</text>
+</svg>

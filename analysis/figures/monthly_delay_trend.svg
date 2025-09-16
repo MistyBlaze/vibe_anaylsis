@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="520" viewBox="0 0 840 520">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif;font-size:14px;fill:#1f2933;}</style>
+
+<text x="420.0" y="40.0" text-anchor="middle" font-size="18" font-weight="600">Average arrival vs. departure delay</text>
+<line x1="80" y1="80" x2="80" y2="440" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="80" y1="440" x2="760" y2="440" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="72" y1="440.0" x2="80" y2="440.0" stroke="#cbd2d9" stroke-width="1"/>
+<text x="68" y="445.0" text-anchor="end">0</text>
+<line x1="72" y1="368.0" x2="80" y2="368.0" stroke="#cbd2d9" stroke-width="1"/>
+<text x="68" y="373.0" text-anchor="end">3.2</text>
+<line x1="72" y1="296.0" x2="80" y2="296.0" stroke="#cbd2d9" stroke-width="1"/>
+<text x="68" y="301.0" text-anchor="end">6.4</text>
+<line x1="72" y1="224.00000000000003" x2="80" y2="224.00000000000003" stroke="#cbd2d9" stroke-width="1"/>
+<text x="68" y="229.00000000000003" text-anchor="end">9.6</text>
+<line x1="72" y1="152.0" x2="80" y2="152.0" stroke="#cbd2d9" stroke-width="1"/>
+<text x="68" y="157.0" text-anchor="end">12.8</text>
+<line x1="72" y1="80.00000000000006" x2="80" y2="80.00000000000006" stroke="#cbd2d9" stroke-width="1"/>
+<text x="68" y="85.00000000000006" text-anchor="end">16</text>
+<text x="25" y="260.0" transform="rotate(-90 25,260.0)" text-anchor="middle" font-size="13">Delay (minutes)</text>
+<text x="420.0" y="468" text-anchor="middle">2024-01</text>
+<rect x="193.33333333333334" y="199.7226752482877" width="226.66666666666666" height="240.2773247517123" fill="#2563eb" rx="4"/>
+<text x="306.6666666666667" y="193.7226752482877" text-anchor="middle">10.7</text>
+<rect x="420.0" y="80.00000000000006" width="226.66666666666666" height="359.99999999999994" fill="#f97316" rx="4"/>
+<text x="533.3333333333334" y="74.00000000000006" text-anchor="middle">16</text>
+<rect x="620" y="68" width="18" height="18" fill="#2563eb" rx="4"/>
+<text x="646" y="82" font-size="13">Avg arrival delay</text>
+<rect x="620" y="92" width="18" height="18" fill="#f97316" rx="4"/>
+<text x="646" y="106" font-size="13">Avg departure delay</text>
+</svg>
