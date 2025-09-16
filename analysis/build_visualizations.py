@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
+from dataset_utils import collect_csv_files
 sns.set_theme(style="whitegrid")
 
 USECOLS = [
@@ -270,9 +271,11 @@ def main() -> None:
     args = parse_args()
     if not args.data_dir.exists():
         raise SystemExit(f"Data directory {args.data_dir} does not exist")
-    csv_files = sorted(args.data_dir.glob("*.csv"))
+    csv_files = collect_csv_files(args.data_dir)
     if not csv_files:
-        raise SystemExit(f"No CSV files found in {args.data_dir}")
+        raise SystemExit(
+            f"No CSV files found in {args.data_dir}. Place the Kaggle CSVs or zip archive in this directory."
+        )
 
     raw = load_dataset(csv_files)
     raw["month"] = raw["FlightDate"].dt.to_period("M").dt.to_timestamp()

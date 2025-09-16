@@ -2,6 +2,7 @@
 
 ## Data coverage and method
 - Source: Kaggle flight delay dataset (version 1) downloaded with `kagglehub` and copied to `data/flight-delay-dataset-2018-2024/`.
+- Drop either the extracted CSVs or the original Kaggle zip inside that folder—the reporting scripts now unpack archives automatically when no CSVs are present.
 - The CSV contains 582,425 domestic U.S. flights spanning **1 January – 31 January 2024**; no earlier months were present in the published archive.
 - Metrics were generated with the streaming report generator (`analysis/generate_flight_delay_report.py`) and visualised in pandas/seaborn to avoid loading the entire 46 MB CSV into memory.
 - When only the derived tables are present, `analysis/render_svg_charts.py` rebuilds lightweight SVG charts directly from the committed CSV summaries so no binary assets are required.

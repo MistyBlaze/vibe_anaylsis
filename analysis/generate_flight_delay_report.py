@@ -12,6 +12,8 @@ from typing import Dict, Iterable, List, Tuple
 import numpy as np
 import pandas as pd
 
+from dataset_utils import collect_csv_files
+
 DELAY_CAUSE_COLUMNS = {
     "CARRIER_DELAY": "carrier_delay_sum",
     "WEATHER_DELAY": "weather_delay_sum",
@@ -484,13 +486,13 @@ def process_dataset(args: argparse.Namespace) -> None:
             f"Data directory {args.data_dir} does not exist. Download the Kaggle dataset before running this script."
         )
 
-    csv_files = sorted(args.data_dir.glob("*.csv"))
+    csv_files = collect_csv_files(args.data_dir)
     if args.limit_files is not None:
         csv_files = csv_files[: args.limit_files]
 
     if not csv_files:
         raise SystemExit(
-            f"No CSV files found in {args.data_dir}. Ensure the Kaggle archive is extracted into this directory."
+            f"No CSV files found in {args.data_dir}. Place the Kaggle CSVs or the original zip archive in this directory."
         )
 
     monthly_stats: Dict[Tuple, Dict[str, float]] = defaultdict(new_stats)

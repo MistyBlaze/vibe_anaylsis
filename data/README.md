@@ -11,3 +11,5 @@ export KAGGLE_KEY="<your_token>"
 ```
 
 The helper script stores the archive and extracted CSV files under `data/flight-delay-dataset-2018-2024/`. Once the files are present, run `python analysis/generate_flight_delay_report.py` from the repository root to create the Markdown summary.
+
+Both the report generator and chart builder now scan the data directory recursively and automatically extract any Kaggle-provided zip archives you drop here, so keeping the original download intact is sufficient.
